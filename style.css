@@ -1,0 +1,54 @@
+body {
+  background-color: darkgreen;
+}
+
+#easteregg {
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400d3
+  );
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+#boom {
+  margin: 5em;
+  margin-left: 35em;
+}
+
+#wietje {
+  margin: 5em;
+  margin-left: 40em;
+}
+
+.afbeeldingen {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+.afbeeldingen img {
+  object-fit: contain;
+}
+
+#plantje {
+  margin: 1em;
+  margin-left: 37em;
+}
+
+#puntenTekst p {
+  color: #ff0084;
+  text-align: center;
+  font-size: 20px;
+}
